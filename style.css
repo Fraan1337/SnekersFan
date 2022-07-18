@@ -483,6 +483,16 @@ img{
     height: 100%;
 }
 
+.container-fluid {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.navbar-collapse {
+    flex-grow: inherit;
+}
+
 @media screen ((max-width 800px))
     
     body {
