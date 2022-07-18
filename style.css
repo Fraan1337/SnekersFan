@@ -486,7 +486,7 @@ img{
 
 .container-fluid {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin: 0;
     
 }
@@ -497,8 +497,5 @@ img{
 
 @media screen ((max-width 800px))
     
-    body {
-        
-    }
 
 
