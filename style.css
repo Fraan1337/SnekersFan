@@ -467,7 +467,7 @@ h5 {
 
 
 .card-text1 {
-    font-size: 3rem;
+    font-size: 2.9rem;
 }
 
 .mb-3 {
@@ -495,7 +495,14 @@ h5 {
 
 
 .card {
-    background-color: #80bce4;
+    background-color: #747474;
+}
+
+.card:hover {
+    transition: all 3s;
+    transform: scale(1);
+    filter: opacity(0.5);
+    
 }
 
     
