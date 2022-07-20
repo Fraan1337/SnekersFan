@@ -126,7 +126,7 @@ color: #000000
 }
 
 footer{
-    background-color: #75b6e0;
+    background-color: #80bce4;
 }
 
 
@@ -308,24 +308,6 @@ footer{
     
 }
 
-.texto22 h1{
-    color: white;
-    width: 80;
-}
-
-.redes22{
-color: #2D869C;
-}
-
-.texto22 img{
-    width: 20%;
-}
-
-.footercontacto h1{
-    font-size: 150px;
-    display: flex;
-    justify-content: center;
-}
 
 /* GALERIA GRID  */
 
@@ -434,7 +416,7 @@ h5 {
     border-radius: 3px;
     box-shadow: 2px 2px 10px rgb(182, 182, 182);
     color: aliceblue;
-    background-color: rgb(143, 218, 218);
+    background-color: #80bce4;
 }
 
 .g-4{
@@ -444,18 +426,56 @@ h5 {
     
 }
 
+.h2-nosotros {
+    font-size: 4rem;
+}
 
 
 
+.card-text1 {
+    font-size: 3rem;
+}
+
+.mb-3 {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
+.text-muted {
+    font-size: 2rem;
+}
 
 
+.h5-carrusel {
+    font-size: 5rem;
+    color: #80bce4;
+    justify-content: center;
+}
+
+.p-carrusel {
+    font-size: 2rem;
+    color: aliceblue;
+}
 
 
+.card {
+    background-color: #80bce4;
+}
 
 
+.card:hover {
+    transition: all 1.5s;
+    filter: opacity(0.5);
+    transform: scale(1);
+}
     
  
-
+/* .g-4 {
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
     
