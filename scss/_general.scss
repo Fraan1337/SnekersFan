@@ -126,7 +126,7 @@ color: #000000
 }
 
 footer{
-    background-color: #80bce4;
+    background-color: $color-principal;
 }
 
 
@@ -223,19 +223,19 @@ footer{
 
 /* NOSOTROS  */
 
-#bannernosotros {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 20vh;
-   background-image: url(../LaCuartetera/imagenes/3333.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-    text-align: center;
-}
+// #bannernosotros {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+//     flex-direction: column;
+//     height: 20vh;
+//    background-image: url(../LaCuartetera/imagenes/3333.jpg);
+//    background-repeat: no-repeat;
+//    background-size: cover;
+//    background-position: center;
+//     text-align: center;
+// }
 
 .textobannernosotros{
     color: aliceblue;
@@ -407,7 +407,7 @@ h5 {
     font-size: 1.3 rem;
   }
 
-  .card-text {
+.card-text {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     margin: 0;
@@ -442,7 +442,7 @@ h5 {
     font-size: 1.3 rem;
   }
 
-  .card-text {
+.card-text {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     margin: 0;
@@ -504,13 +504,3 @@ h5 {
     filter: opacity(0.5);
     
 }
-
-    
- 
-/* .g-4 {
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-} */
-    
