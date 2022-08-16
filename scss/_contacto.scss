@@ -1,0 +1,39 @@
+.img-contacto {
+    display: flexbox;
+}
+
+#bannercontacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 20vh;
+   background-image: url(../LaCuartetera/imagenes/padre.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    text-align: center;
+}
+
+.textobannercontacto{
+    color: aliceblue;
+    position: relative;
+}
+
+
+.container-contacto{
+    color: white;
+    display: flex;
+    padding: 55px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.container-contacto img {
+    width:40%;
+    
+}

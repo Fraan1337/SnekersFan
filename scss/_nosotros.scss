@@ -1,0 +1,38 @@
+.textobannernosotros{
+    color: aliceblue;
+    position: relative;
+}
+
+.container-nosotros{
+    color: white;
+    display: flex;
+    padding: 55px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container-nosotros {
+    color: #1f2e3a;
+}
+
+.img-container-nosotros img {
+    width: 1050px;
+    height: 900px;
+}
+
+.nosotros p {
+    color: #000000;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.nosotros p {
+    background-color:aliceblue;
+    border-radius: 10px;
+    margin: 100px;
+    height: 300px;
+    display: flex;
+}
+

@@ -1,3 +1,5 @@
+// EN TODAS LAS PAGINASEN TODAS LAS PAGINAS
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -34,212 +36,13 @@ p {
     font-size: 1.2rem;
 }
 
-.textosIndex {
-    color: #000000 
-    }
-
-.textoPosteos {
-    background-color:gainsboro;
-    font-size: 50%;
-}
-
-.textobannernosotros{
-    color: aliceblue;
-    position: relative;
-}
-
-.container-nosotros{
-    color: white;
+.h2-nosotros {
+    font-size: 80%;
     display: flex;
-    padding: 55px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-
-.container-nosotros {
-    color: #1f2e3a;
-}
-
-.img-container-nosotros img {
-    width: 1050px;
-    height: 900px;
-}
-
-.nosotros p {
-    color: #000000;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-/* contacto */
-
-
-.img-contacto {
-    display: flexbox;
-}
-
-#bannercontacto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 20vh;
-   background-image: url(../LaCuartetera/imagenes/padre.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-    text-align: center;
-}
-
-.textobannercontacto{
-    color: aliceblue;
-    position: relative;
-}
-
-
-.container-contacto{
-    color: white;
-    display: flex;
-    padding: 55px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-
-}
-
-.container-contacto img {
-    width:40%;
-    
-}
-
-
-.nosotros p {
-    background-color:aliceblue;
-    border-radius: 10px;
-    margin: 100px;
-    height: 300px;
-    display: flex;
-}
-
-
-/* GALERIA */
-
-#bannergaleria {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 20vh;
-   background-image: url(.//imagenes/galeria.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-    text-align: center;
-}
-
-.textobannergaleria{
-    color: aliceblue;
-    position: relative;
-}
-
-
-.img-container-galeria{
-    display: flex;
-    padding: 55px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-
-.container-galeria {
-    background-color: rgb(30, 30, 30);
-    
-}
-
-.img-container-galeria img {
-    width: 1050px;
-    height: 900px;
-}
-
-
-/* GALERIA GRID  */
-
-.grid-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background-color: #dbdbdb;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-
-.grid-item:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: minmax(200px, auto);
-    gap: 20px;
-    padding: 20px;
-    grid-auto-flow: dense;
-
-}
-
-@media (mind-width: 720px) {
-
-    .wide {
-        grid-column: span ;
-    }
-    
-    .tall {
-        grid-row: span 2;
-    }
-    
-    }
-
-.grilla__item{
-    display: flex;
-    align-items:baseline; 
     justify-content: center;
     align-items: center;
-
-    background-image: url(../imagenes/jordan11new.jpg);
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.grilla__item:hover {
-    filter: opacity(0.7);
-    transform: scale(1.01);
-}
-
-.grilla{
-    background-color:rgb(0, 0, 0);
-    padding: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 300px);
-    gap: 20px;
-}
 
 img{
     width: 100%;
@@ -252,7 +55,6 @@ img{
     font-size: 1.5rem;
     margin: 0;
 }
-
 
 .navbar-collapse {
     flex-grow: inherit;
@@ -284,10 +86,6 @@ h5 {
     
 }
 
-.h2-nosotros {
-    font-size: 4rem;
-}
-
 .navbar-collapse {
     flex-grow: inherit;
 }
@@ -317,9 +115,6 @@ h5 {
     border-radius: 3px;
 }
 
-
-
-
 .card-text1 {
     font-size: 2.9rem;
 }
@@ -330,11 +125,9 @@ h5 {
     margin-right: auto;
 }
 
-
 .text-muted {
     font-size: 2rem;
 }
-
 
 .h5-carrusel {
     font-size: 5rem;
@@ -357,4 +150,10 @@ h5 {
     transform: scale(1);
     filter: opacity(0.5);
     
+}
+
+footer{
+    background: #8fdada;
+    width: auto;
+    height: 100px;
 }
