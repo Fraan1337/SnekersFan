@@ -161,22 +161,6 @@ footer {
   height: 300px;
   display: flex; }
 
-.img-contacto {
-  display: flexbox; }
-
-#bannercontacto {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  height: 20vh;
-  background-image: url(../LaCuartetera/imagenes/padre.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center; }
-
 .textobannercontacto {
   color: aliceblue;
   position: relative; }
@@ -192,6 +176,16 @@ footer {
 
 .container-contacto img {
   width: 40%; }
+
+.contacto {
+  background-color: #98dada;
+  color: #6c757d;
+  text-align: center;
+  font-size: 50px; }
+
+@media screen and (max-width: 991px) {
+  .container-contacto img {
+    width: 85%; } }
 
 /* GALERIA */
 .imagenesgrid {
