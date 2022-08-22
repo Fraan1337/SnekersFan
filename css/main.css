@@ -62,9 +62,8 @@ h5 {
   background-color: #80bce4; }
 
 .g-4 {
-  margin: 20px;
   margin: 50px;
-  border-radius: 3px; }
+  border-radius: 10px; }
 
 .navbar-collapse {
   flex-grow: inherit; }
@@ -84,11 +83,6 @@ h5 {
   color: aliceblue;
   background-color: #8fdada; }
 
-.g-4 {
-  margin: 20px;
-  margin: 50px;
-  border-radius: 3px; }
-
 .card-text1 {
   font-size: 2.9rem; }
 
@@ -102,8 +96,7 @@ h5 {
 
 .h5-carrusel {
   font-size: 5rem;
-  color: #80bce4;
-  justify-content: center; }
+  color: #80bce4; }
 
 .p-carrusel {
   font-size: 2rem;
@@ -121,6 +114,35 @@ footer {
   background: #8fdada;
   width: auto;
   height: 100px; }
+
+.tituloseccion {
+  background-color: #98dada;
+  color: #6c757d;
+  text-align: center;
+  font-size: 50px; }
+
+.imagenindexnosotros {
+  background-size: cover;
+  padding: 1rem 1rem;
+  flex: 1 1 auto; }
+
+@media screen and (max-width: 480px) {
+  .card-text1 {
+    font-size: 1.5rem; }
+  .text-muted {
+    font-size: 1.5rem; }
+  .h2-nosotros {
+    font-size: 70%; }
+  .card-title {
+    color: #020202; }
+  .g-4 {
+    margin: auto; }
+  .d-none {
+    display: block; }
+  .h2nosotros {
+    font-size: 1.0em; }
+  .imgnosotros {
+    width: 400px; } }
 
 .textosIndex {
   color: #000000; }
@@ -150,16 +172,30 @@ footer {
   height: 900px; }
 
 .nosotros p {
-  color: #000000;
+  background-color: aliceblue;
+  border-radius: 20px;
+  margin: auto;
+  height: auto; }
+
+.h2nosotros {
+  color: #000000; }
+
+.imgnosotros {
+  width: 800px; }
+
+.textonosotros {
+  font-size: 40px;
+  color: #141414;
   text-align: center;
   flex-wrap: wrap; }
 
-.nosotros p {
-  background-color: aliceblue;
-  border-radius: 10px;
-  margin: 100px;
-  height: 300px;
-  display: flex; }
+@media screen and (max-width: 650px) {
+  .imgnosotros {
+    width: 400px; }
+  .h2nosotros {
+    font-size: 1.0em; }
+  .textonosotros {
+    font-size: 15px; } }
 
 .textobannercontacto {
   color: aliceblue;
@@ -177,15 +213,11 @@ footer {
 .container-contacto img {
   width: 40%; }
 
-.contacto {
-  background-color: #98dada;
-  color: #6c757d;
-  text-align: center;
-  font-size: 50px; }
-
 @media screen and (max-width: 991px) {
   .container-contacto img {
-    width: 85%; } }
+    width: 85%; }
+  .form-label {
+    font-size: 30px; } }
 
 /* GALERIA */
 .imagenesgrid {

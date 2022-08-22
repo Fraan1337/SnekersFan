@@ -23,16 +23,39 @@
 }
 
 .nosotros p {
+    background-color:aliceblue;
+    border-radius: 20px;
+    margin: auto;
+    height: auto;
+}
+
+.h2nosotros {
     color: #000000;
+}
+
+.imgnosotros{
+    width: 800px;
+}
+
+.textonosotros {
+
+    font-size: 40px;
+    color: rgb(20, 20, 20);
     text-align: center;
     flex-wrap: wrap;
 }
 
-.nosotros p {
-    background-color:aliceblue;
-    border-radius: 10px;
-    margin: 100px;
-    height: 300px;
-    display: flex;
+
+@media screen and (max-width: 650px){
+    .imgnosotros{
+    width: 400px;
+    }
+
+    .h2nosotros {
+        font-size: 1.0em; }
+    
+    .textonosotros {
+        font-size: 15px;}
 }
 
+        

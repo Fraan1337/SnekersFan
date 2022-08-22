@@ -80,9 +80,8 @@ h5 {
 }
 
 .g-4{
-    margin: 20px;
     margin: 50px;
-    border-radius: 3px;
+    border-radius: 10px;
     
 }
 
@@ -109,12 +108,6 @@ h5 {
     background-color: rgb(143, 218, 218);
 }
 
-.g-4{
-    margin: 20px;
-    margin: 50px;
-    border-radius: 3px;
-}
-
 .card-text1 {
     font-size: 2.9rem;
 }
@@ -132,7 +125,6 @@ h5 {
 .h5-carrusel {
     font-size: 5rem;
     color: #80bce4;
-    justify-content: center;
 }
 
 .p-carrusel {
@@ -156,4 +148,51 @@ footer{
     background: #8fdada;
     width: auto;
     height: 100px;
+}
+
+.tituloseccion{
+    background-color: #98dada;
+    color:#6c757d;
+    text-align: center;
+    font-size: 50px;
+}
+
+.imagenindexnosotros{
+    background-size: cover;
+    padding: 1rem 1rem;
+    flex: 1 1 auto;
+}
+
+@media screen and (max-width:480px) {
+    .card-text1 {
+        font-size: 1.5rem;
+    }
+    
+    .text-muted {
+        font-size: 1.5rem;
+    }
+
+    .h2-nosotros {
+        font-size: 70%;
+    }
+
+    .card-title {
+        color: #020202;
+    }
+
+    .g-4{
+        margin: auto;
+    }
+
+    .d-none{
+        display: block;
+    }
+
+    .h2nosotros{
+        font-size: 1.0em;
+    }
+
+    .imgnosotros {
+        width: 400px;
+    }
 }
